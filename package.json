@@ -1,0 +1,21 @@
+{
+    "name": "theme-autumn",
+    "displayName": "Theme - Autumn",
+    "description": "Visual Studio Code theme inspired by autumn colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Theme - Autumn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Theme - Autumn-color-theme.json"
+            }
+        ]
+    }
+}
