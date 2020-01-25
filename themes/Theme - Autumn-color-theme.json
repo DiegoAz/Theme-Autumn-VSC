@@ -148,12 +148,7 @@
 				"foreground": "#b37824"
 			}
 		},
-		{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#b37824"
-			}
-		},
+		
 		{
 			"scope": "storage.type.function",
 			"settings": {
@@ -211,7 +206,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.tag.html",
+				
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag.end"
 			],
@@ -422,6 +417,15 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.name.tag",
+				"source.css"
+			],
+			"settings": {
+				"foreground": "#b37824"
+			}
+		},
+		{
 			"scope": "support.type.vendor-prefix",
 			"settings": {
 				"foreground": "#b1886c"
@@ -545,7 +549,7 @@
 	"colors": {
 		"editor.background": "#1a1625",
 		"editorCursor.foreground": "#e08300",
-		"editor.foreground": "#827793",
+		"editor.foreground": "#b1886c",
 		// "editorWhitespace.foreground": "#ffffff",
 		"editor.lineHighlightBackground": "#292239",
 		"editor.selectionBackground": "#3f3523",
@@ -561,28 +565,33 @@
 		"list.activeSelectionForeground": "#827793",
 		"list.hoverBackground": "#292239",
 		"list.inactiveSelectionBackground": "#292239",
+		// terminal
 		"terminal.foreground": "#827793",
 		"terminal.selectionBackground": "#3f35234d",
 		"terminal.ansiBrightBlue": "#959535",
 		"terminal.ansiBrightCyan": "#a86289",
 		"terminalCursor.foreground": "#e08300",
 		"terminal.ansiGreen": "#83971A",
+		"terminal.ansiBrightGreen": "#959535",
 		"terminal.ansiBrightYellow": "#b38320",
+		"terminal.ansiRed": "#be405c",
+		// list
 		"list.focusBackground": "#342d42",
 		"list.focusForeground": "#827793",
 		"list.highlightForeground": "#D97200",
-		"list.errorForeground": "#D14766",
+		"list.errorForeground": "#be405c",
 		// "list.warningForeground": "#B57B2A",
 		// "input.foreground": "#ff0000",
 		"pickerGroup.foreground": "#827793",
 		"editorSuggestWidget.background": "#292239",
+		// Git
 		"gitDecoration.modifiedResourceForeground": "#b38320",
 		"gitDecoration.untrackedResourceForeground": "#959535",
-		"gitDecoration.addedResourceForeground": "#ff0000",
-		"gitDecoration.conflictingResourceForeground": "#ff0000",
-		"gitDecoration.deletedResourceForeground": "#ff0000",
-		"gitDecoration.ignoredResourceForeground": "#ff0000",
-		"gitDecoration.submoduleResourceForeground": "#ff0000",
+		// "gitDecoration.addedResourceForeground": "#ff0000",
+		// "gitDecoration.conflictingResourceForeground": "#ff0000",
+		// "gitDecoration.deletedResourceForeground": "#ff0000",
+		// "gitDecoration.ignoredResourceForeground": "#ff0000",
+		// "gitDecoration.submoduleResourceForeground": "#ff0000",
 	},
 	"name": "Theme - Autumn"
 }
