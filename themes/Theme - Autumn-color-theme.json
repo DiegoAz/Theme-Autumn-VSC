@@ -1,10 +1,10 @@
 {
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#b1886c",
-			}
-		},
+		// {
+		// 	"settings": {
+		// 		"foreground": "#b1886c",
+		// 	}
+		// },
 		{
 			"scope": [
 				"brackethighlighter.default",
@@ -549,22 +549,18 @@
 	"colors": {
 		"editor.background": "#1a1625",
 		"editorCursor.foreground": "#e08300",
-		"editor.foreground": "#b1886c",
-		// "editorWhitespace.foreground": "#ffffff",
+		"editor.foreground": "#585064",
+		"editorWhitespace.foreground": "#ffffff",
 		"editor.lineHighlightBackground": "#292239",
 		"editor.selectionBackground": "#3f3523",
-		"sideBar.background": "#221B2F",
-		"activityBar.background": "#1B1626",
-		"sideBar.foreground": "#827793",
 		"editorLineNumber.foreground": "#585064",
 		"editorIndentGuide.background": "#292239",
-		"editorIndentGuide.activeBackground": "#b1886c",
-		"tab.inactiveBackground": "#292239",
+		"editorIndentGuide.activeBackground": "#585064",
 		"editorGroupHeader.tabsBackground": "#292239",
-		"list.activeSelectionBackground": "#292239",
-		"list.activeSelectionForeground": "#827793",
-		"list.hoverBackground": "#292239",
-		"list.inactiveSelectionBackground": "#292239",
+		"sideBar.background": "#221B2F",
+		"sideBar.foreground": "#827793",
+		"activityBar.background": "#1B1626",
+		"tab.inactiveBackground": "#292239",
 		// terminal
 		"terminal.foreground": "#827793",
 		"terminal.selectionBackground": "#3f35234d",
@@ -580,8 +576,11 @@
 		"list.focusForeground": "#827793",
 		"list.highlightForeground": "#D97200",
 		"list.errorForeground": "#be405c",
+		"list.activeSelectionBackground": "#292239",
+		"list.activeSelectionForeground": "#827793",
+		"list.hoverBackground": "#292239",
+		"list.inactiveSelectionBackground": "#292239",
 		// "list.warningForeground": "#B57B2A",
-		// "input.foreground": "#ff0000",
 		"pickerGroup.foreground": "#827793",
 		"editorSuggestWidget.background": "#292239",
 		// Git
