@@ -1,12 +1,8 @@
 {
 	"tokenColors": [
 		{
-			"scope": [
-				"brackethighlighter.default",
-				"brackethighlighter.unmatched"
-			],
 			"settings": {
-				"foreground": "#f58f00"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -456,13 +452,13 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#242424"
+				"foreground": "#be405c"
 			}
 		},
 		{
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#242424"
+				"foreground": "#be405c"
 			}
 		},
 		{
@@ -544,11 +540,14 @@
 		}
 	],
 	"colors": {
+		"foreground": "#9A8CAD",
 		// editor
 		"editor.background": "#1a1625",
 		"editorCursor.foreground": "#e08300",
-		"editor.foreground": "#585064",
-		"editorWhitespace.foreground": "#ffffff",
+		"editor.foreground": "#B1886C",
+		"editorWhitespace.foreground": "#585064",
+		"editorSuggestWidget.background": "#292239",
+		"editorSuggestWidget.foreground": "#827793",
 		"editor.lineHighlightBackground": "#292239",
 		"editor.selectionBackground": "#3f3523",
 		"editor.selectionHighlightBackground": "#3f3523",
@@ -560,10 +559,17 @@
 		"editorIndentGuide.background": "#292239",
 		"editorIndentGuide.activeBackground": "#585064",
 		"editorGroupHeader.tabsBackground": "#292239",
+		"textLink.foreground": "#a86289",
+		// sideBar
 		"sideBar.background": "#221B2F",
 		"sideBar.foreground": "#827793",
+
+	
+		// activityBar
 		"activityBar.background": "#1B1626",
+		// tabs
 		"tab.inactiveBackground": "#292239",
+		"tab.activeForeground": "#9A8CAD",
 		// terminal
 		"terminal.foreground": "#827793",
 		"terminal.selectionBackground": "#3f35234d",
@@ -576,17 +582,15 @@
 		"terminal.ansiRed": "#be405c",
 		// list
 		"list.focusBackground": "#342d42",
-		"list.focusForeground": "#000",
+		"list.focusForeground": "#9A8CAD",
 		"list.highlightForeground": "#D97200",
 		"list.errorForeground": "#be405c",
 		"list.activeSelectionBackground": "#292239",
-		"list.activeSelectionForeground": "#000",
+		// "list.activeSelectionForeground": "#ffffff",
 		"list.hoverBackground": "#292239",
 		"list.inactiveSelectionBackground": "#292239",
 		// "list.warningForeground": "#B57B2A",
-		"pickerGroup.foreground": "#827793",
-		"editorSuggestWidget.background": "#292239",
-		"editorSuggestWidget.foreground": "#827793",
+		"pickerGroup.foreground": "#000",
 		// Git
 		"gitDecoration.modifiedResourceForeground": "#b38320",
 		"gitDecoration.untrackedResourceForeground": "#959535",
