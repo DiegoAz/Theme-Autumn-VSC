@@ -15,6 +15,14 @@
 			}
 		},
 		{
+			"scope": [
+				"text",
+			],
+			"settings": {
+				"foreground": "#b1886c"
+			}
+		},
+		{
 			"scope": "source.stylus meta.property-name.stylus support.type.property-name.stylus",
 			"settings": {
 				"foreground": "#a86289"
@@ -148,7 +156,6 @@
 				"foreground": "#b37824"
 			}
 		},
-		
 		{
 			"scope": "storage.type.function",
 			"settings": {
@@ -206,7 +213,6 @@
 		},
 		{
 			"scope": [
-				
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag.end"
 			],
@@ -480,16 +486,12 @@
 			}
 		},
 		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#6c657b"
-			}
-		},
-		{
 			"scope": [
+				"comment",
 				"comment.block",
 				"comment.line",
-				"string.comment.buffered.block.pug"
+				"string.comment.buffered.block.pug",
+				"source comment variable"
 			],
 			"settings": {
 				"foreground": "#6c657b"
@@ -547,12 +549,18 @@
 		}
 	],
 	"colors": {
+		// editor
 		"editor.background": "#1a1625",
 		"editorCursor.foreground": "#e08300",
 		"editor.foreground": "#585064",
 		"editorWhitespace.foreground": "#ffffff",
 		"editor.lineHighlightBackground": "#292239",
 		"editor.selectionBackground": "#3f3523",
+		"editor.selectionHighlightBackground": "#3f3523",
+		"editor.findMatchBackground": "#251f12",
+		"editor.wordHighlightBackground": "#3f3523",
+		"editor.hoverHighlightBackground": "#3f3523",
+		"editor.findMatchHighlightBackground": "#3f3523",
 		"editorLineNumber.foreground": "#585064",
 		"editorIndentGuide.background": "#292239",
 		"editorIndentGuide.activeBackground": "#585064",
@@ -591,6 +599,13 @@
 		// "gitDecoration.deletedResourceForeground": "#ff0000",
 		// "gitDecoration.ignoredResourceForeground": "#ff0000",
 		// "gitDecoration.submoduleResourceForeground": "#ff0000",
+		"input.background": "#292239",
+		"input.border": "#43375f",
 	},
-	"name": "Theme - Autumn"
+	"name": "Theme - Autumn",
+	"bracket-pair-colorizer-2.colors": [
+		"#CB8B08",
+		"#AA6089",
+		"#AAA920"
+	],
 }
