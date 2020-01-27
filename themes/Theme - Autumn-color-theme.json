@@ -1,12 +1,6 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#b1886c",
-				"background": "#1B1626",
-			}
-		},
-		{
 			"scope": [
 				"brackethighlighter.default",
 				"brackethighlighter.unmatched"
@@ -582,16 +576,17 @@
 		"terminal.ansiRed": "#be405c",
 		// list
 		"list.focusBackground": "#342d42",
-		"list.focusForeground": "#827793",
+		"list.focusForeground": "#000",
 		"list.highlightForeground": "#D97200",
 		"list.errorForeground": "#be405c",
 		"list.activeSelectionBackground": "#292239",
-		"list.activeSelectionForeground": "#827793",
+		"list.activeSelectionForeground": "#000",
 		"list.hoverBackground": "#292239",
 		"list.inactiveSelectionBackground": "#292239",
 		// "list.warningForeground": "#B57B2A",
 		"pickerGroup.foreground": "#827793",
 		"editorSuggestWidget.background": "#292239",
+		"editorSuggestWidget.foreground": "#827793",
 		// Git
 		"gitDecoration.modifiedResourceForeground": "#b38320",
 		"gitDecoration.untrackedResourceForeground": "#959535",
