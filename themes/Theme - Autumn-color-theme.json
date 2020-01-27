@@ -1,10 +1,11 @@
 {
 	"tokenColors": [
-		// {
-		// 	"settings": {
-		// 		"foreground": "#b1886c",
-		// 	}
-		// },
+		{
+			"settings": {
+				"foreground": "#b1886c",
+				"background": "#1B1626",
+			}
+		},
 		{
 			"scope": [
 				"brackethighlighter.default",
