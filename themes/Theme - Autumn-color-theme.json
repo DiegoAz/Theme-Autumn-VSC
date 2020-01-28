@@ -1,11 +1,6 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
 			"scope": [
 				"text",
 			],
@@ -540,7 +535,7 @@
 		}
 	],
 	"colors": {
-		"foreground": "#9A8CAD",
+		"foreground": "#827793",
 		// editor
 		"editor.background": "#1a1625",
 		"editorCursor.foreground": "#e08300",
@@ -559,7 +554,9 @@
 		"editorIndentGuide.background": "#292239",
 		"editorIndentGuide.activeBackground": "#585064",
 		"editorGroupHeader.tabsBackground": "#292239",
-		"textLink.foreground": "#a86289",
+		"editorHoverWidget.background": "#292239",
+		"editorHoverWidget.border": "#3E3457",
+		"textLink.foreground": "#b37824",
 		// sideBar
 		"sideBar.background": "#221B2F",
 		"sideBar.foreground": "#827793",
@@ -590,7 +587,7 @@
 		"list.hoverBackground": "#292239",
 		"list.inactiveSelectionBackground": "#292239",
 		// "list.warningForeground": "#B57B2A",
-		"pickerGroup.foreground": "#000",
+		"pickerGroup.foreground": "#827793",
 		// Git
 		"gitDecoration.modifiedResourceForeground": "#b38320",
 		"gitDecoration.untrackedResourceForeground": "#959535",
